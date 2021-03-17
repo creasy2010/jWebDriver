@@ -4,6 +4,7 @@
   "description": "A webdriver client for node.js",
   "homepage": "http://jwebdriver.com/",
   "main": "./index",
+  "typing/types": "./index.d.ts",
   "dependencies": {
     "node-zip": "1.1.1",
     "promiseclass": "1.0.3",
@@ -11,9 +12,9 @@
     "xtend": "4.0.1",
     "gm": "1.23.0"
   },
-    "publishConfig": {
-        "registry": "http://172.23.40.188:7001"
-    },
+  "publishConfig": {
+    "registry": "http://172.23.40.188:7001"
+  },
   "devDependencies": {
     "chai": "3.5.0",
     "co": "4.6.0",

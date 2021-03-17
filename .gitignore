@@ -3,3 +3,4 @@ coverage
 doc
 npm-debug.log
 test.js
+.idea
